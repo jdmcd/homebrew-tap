@@ -1,8 +1,8 @@
 class Thanks < Formula
   homepage "https://github.com/mcdappdev/thanks"
-  version "1.0.0"
-  url "https://github.com/mcdappdev/thanks/releases/download/1.0.0/thanks-1.0.0.tar.gz"
-  sha256 "a3ef5045a72e13c728b71899454d2f09b0639c116786318717edea182d9fd8df"
+  version "1.0.1"
+  url "https://github.com/mcdappdev/thanks/releases/download/1.0.1/thanks-1.0.1.tar.gz"
+  sha256 "d6b1528313c5e752c98687bd697bfb30864a5119a83bf600c0886725ab570a53"
 
   def install
     bin.install "thanks"
