@@ -6,11 +6,6 @@ class Thanks < Formula
   sha256 "d6b1528313c5e752c98687bd697bfb30864a5119a83bf600c0886725ab570a53"
 
   def install
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-
     system "make", "install" # if this fails, try separate make/make install steps
   end
 
