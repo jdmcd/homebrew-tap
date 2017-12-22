@@ -5,6 +5,6 @@ class SwiftThanks < Formula
   sha256 "a87d4825cc259e581d5bced39f6309fcde830642b8ed2c0fe13fc05c0096e6f2"
 
   def install
-    bin.install "swift-thanks"
+    bin.install "swiftthanks"
   end
 end
